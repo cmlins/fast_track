@@ -62,7 +62,34 @@
 
 - Com o git checkout nós desfazemos uma alteração que ainda não foi adicionada ao index ou stage, ou seja, antes do git add. Depois de adicionar com git add, para desfazer uma alteração, precisamos tirá-la deste estado, com git reset. Agora, se já realizamos o commit, o comando git revert pode nos salvar.
 
+- `git stash`: quando precisamos pausar o desenvolvimento de alguma funcionalidade, ou correção, antes de finalizar, talvez não seja interessante realizar um commit, pois o nosso código pode não estar funcionando ainda
+
+    - para visualizar quais alterações estão na stash, podemos utilizar o comando `git stash list`
+
+    - `git stash apply <numero>`: podemos aplicar uma alteração específica da stash
+
+    - `git stash drop <numero>`: remove determinado item da stash
+
+    - `git stash pop`: aplica e remove a última alteração que foi adicionada na stash
+
+- `git checkout --help`, em uma tradução livre é: "Atualizar os arquivos na working tree para ficarem na versão especificada. [...]". Basicamente, podemos deixar o nosso código no estado do último commit de uma branch, de um commit específico, ou mesmo tags (que veremos adiante).
+
+- `git revert`: gera um novo commit informando que alterações foram desfeitas | reverte as alterações realizadas em um commit
+
+- `git tag -a <nome> <mensagem>`: gera uma nova tag. Cria versões de um projeto
+
+    - `git tag`: visualiza as tags
+
+- `git diff`: vemos as alterações em nossos arquivos que não foram adicionadas para commit (com git add)
+
+    - `git diff <branch1>..<branch2>`: compara as alterações entre duas branches
+
+    - `git diff <commit1>..<commit2>`: compara as alterações feitas entre um commit e outro
+
+
 http://git-school.github.io/visualizing-git/
+
+
 
 
 
