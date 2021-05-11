@@ -43,6 +43,13 @@
     - **MetaStore**: repositório central que armazena toda a informação estruturada de várias tabelas e partições no warehouse
   - MapReduce
   - HDFS
+- Apache Hive Components
+  - Shell
+  - Meta Store
+  - Execution Engine
+  - Driver
+  - Compiler
+- 
 
 
 
