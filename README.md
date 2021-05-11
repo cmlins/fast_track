@@ -17,6 +17,7 @@
 8. SHELL SCRIPTING PARTE 1: COMEÇANDO SEUS SCRIPTS DE AUTOMAÇÃO DE TAREFAS: início em 10/05/2021 e concluído em 10/05/2021 (17h51m).
 
 9. PYTHON PANDAS: TRATANDO E ANALISANDO DADOS início 11/05/2021 e concluído 11/05/2021
+   1.  Ativar ambiente virtual: .\Scripts\activate
 
 ## Engenharia de Dados
 
