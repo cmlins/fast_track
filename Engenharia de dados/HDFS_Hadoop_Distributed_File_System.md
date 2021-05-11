@@ -17,7 +17,7 @@
     - Como o dado é acessado?
 
     - Existe um nó mestre: NameNode
-      - Mantem e gerencia DataNode (escravo)
+      - Mantêm e gerencia DataNode (escravo)
       - Grava metadados
       - Recebe sinais dos DataNodes para saber se está tudo funcionando corretamente
     - DataNode
@@ -32,3 +32,12 @@
       - `hdfs dfs -mkdir /user/<nome-user>/<nome-do-novo-hdfs>`: cria um novo hdfs do usuario
       - `hdfs dfs -put <nome-do-arquivos-que-vão-ser-copiados-para-hdfs> /user/<nome-user>/<nome-do-hdfs-destino>`: envia um arquivo para um sistema
       - `hadoop fsck /user/<nome-user>/<nome-do-hdfs-destino>/<nome-do-arquivo>`: visualiza as informações do armazenamento --> Quantos blocos foram criados, número de vezes que foram replicados ...
+
+
+## Referências:
+
+[What is HDFS | Hadoop Distributed File System (HDFS) Introduction | Hadoop Training | Edureka](https://www.youtube.com/watch?v=GJYEsEEfjvk)
+
+[Entenda de uma vez por todas o que é MapReduce - O que é Hadoop? (Parte 3)](https://www.youtube.com/watch?v=rISmbGoO-cM)
+
+
