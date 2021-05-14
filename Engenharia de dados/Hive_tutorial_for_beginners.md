@@ -49,7 +49,13 @@
   - Execution Engine
   - Driver
   - Compiler
-- 
+- Apache Hive limitações
+  - Não é capaz de lidar com real-time data
+  - Não foi feito para processamento de transações online
+  - As requisições tem alta latência
+
+
+[https://www.cloudera.com/tutorials/learning-the-ropes-of-the-hdp-sandbox.html](https://www.cloudera.com/tutorials/learning-the-ropes-of-the-hdp-sandbox.html)
 
 
 
