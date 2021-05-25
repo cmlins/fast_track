@@ -1,0 +1,55 @@
+- Computação em nuvem provê flexibilidade, parar de pensar em infra como hw, mas como sw
+- Benefícios da Cloud Computing
+  - Parar de gastar de $$ com infra
+  - Escalável
+  - o usuário não se preocupa com capacidade
+  - aumento de velocidade e agilidade
+  - foca no que interessa
+  - compartilhamento rápido
+- Deploy:
+  - cloud: 
+  - hybrid:
+  - On-premises (private cloud)
+- AWS é uma plataforma que oferece diversos serviços baseados na nuvem, oferece armazenamento, rede, database..., flexibilidade
+- Core AWS services: computing, storage, database, networking e security
+- AWS Global Infrastructure: flexible, reliable, scalable and secure.
+- Dividido em regiões que são isoladas, caso seja necessária comunicação, o usuário é o responsável por fazer isso
+  - Escolher a região
+    - data governance
+    - proximidade (latência)
+    - Serviços disponíveis na região
+    - custos (variam com as regiões)
+    - Cada região tem diversas zonas
+- AWS datacenters
+  - edge locations: local cache
+
+- Storage
+  - S3
+  - EBS: uma só instancia
+  - EFS/FSx
+  - S3: baixo custo e backup. Dados deletados em 5 anos
+
+- Database
+  - Amazon Relational Database Service
+  - Amazon Aurora:- relacional
+                  - compatível com MySQL ou PostgreSQL
+  - Amazon DynamoDB: baixa latência nas requisições
+  - Amazon Redshift: fast, scalable data warehouse
+  - Amazon DocumentDB: MongoDB
+  - Amazon Neptune: Graph db
+
+- Security
+  - IAM identity and access management -> controla o acesso aos recursos da aws
+  - Organizations
+  - Cognito
+  - Artifact
+  - Key Management Service
+  - Shield: protege de ataques
+- Pricing:
+  - Paga por uso
+  - Paga menos qt mais usa
+  - Amazon EC2 tem 4 tipos de pgts:
+    - On-demand Instances
+    - Dedicated hosts
+    - Reserved Instances
+    - Spot Instances
